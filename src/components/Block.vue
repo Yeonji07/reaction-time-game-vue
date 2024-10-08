@@ -5,7 +5,10 @@
     <h3 class="press-start-2p-regular m-auto" v-if="allowReact == true">
       Click !!
     </h3>
-    <h3 class="press-start-2p-regular m-auto" v-else-if="allowReact == false">
+    <h3
+      class="press-start-2p-regular text-center m-auto"
+      v-else-if="allowReact == false"
+    >
       Wait For Green...
     </h3>
   </div>
